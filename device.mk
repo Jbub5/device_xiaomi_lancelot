@@ -15,7 +15,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     FrameworksResOverlayLancelot \
-    SystemUIOverlayLancelot
+    SystemUIOverlayLancelot \
+    WifiResOverlayLancelot
 
 # Init
 PRODUCT_PACKAGES += \
