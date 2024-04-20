@@ -225,8 +225,6 @@ vendor/bin/LDC_packdata_xiaomi_J19_Ofilm_3280x2464.dat
 vendor/bin/LDC_packdata_xiaomi_J19_QTech_3264x2448.dat
 
 # Radio
-vendor/bin/factory_bin
-vendor/bin/initprop_bin
 vendor/lib/libcarrierconfig.so
 vendor/lib/libutinterface_custom_md.so
 vendor/lib64/libcarrierconfig.so
@@ -241,9 +239,6 @@ vendor/etc/init/init.md_apps.rc
 vendor/lib64/libsimaka.so
 vendor/lib64/libhydra.so
 vendor/lib64/libstrongswan.so
-vendor/bin/charon
-vendor/bin/starter
-vendor/bin/stroke
 vendor/bin/mnld
 
 # Graphics
