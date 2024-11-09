@@ -21,5 +21,9 @@ ODM_MANIFEST_SKUS += \
 
 ODM_MANIFEST_GALAHAD_FILES := $(DEVICE_PATH)/manifest_galahad.xml
 
+# Kernel
+TARGET_NO_KERNEL := false
+BOARD_PREBUILT_DTBIMAGE_DIR := $(TARGET_KERNEL_DIR)
+
 # Inherit the proprietary files
 include vendor/xiaomi/lancelot/BoardConfigVendor.mk

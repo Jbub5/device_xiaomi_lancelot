@@ -66,6 +66,11 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.1.vendor \
     android.hardware.secure_element@1.2.vendor
 
+# Kernel
+TARGET_KERNEL_DIR := device/xiaomi/lancelot-kernel
+LOCAL_KERNEL := $(TARGET_KERNEL_DIR)/Image
+PRODUCT_COPY_FILES += $(LOCAL_KERNEL):kernel
+
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
