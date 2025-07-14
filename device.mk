@@ -11,7 +11,7 @@ $(call inherit-product, device/xiaomi/mt6768-common/mt6768.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay-voltage
+    $(DEVICE_PATH)/overlay-aospa
 
 PRODUCT_PACKAGES += \
     FrameworksResOverlayLancelot \

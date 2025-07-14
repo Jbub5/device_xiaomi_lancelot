@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_lancelot.mk
+    $(LOCAL_DIR)/aospa_lancelot.mk
